@@ -18,6 +18,7 @@ function [outpict,varargout] = imreadort(fname)
 %  See also: imread, imfinfo, gifread, gifwrite
 
 % read the image; don't care what it is
+
 [outpict map alpha] = imread(fname);
 S = imfinfo(fname);
 
